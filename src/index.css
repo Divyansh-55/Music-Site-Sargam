@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    -webkit-font-smoothing:antialised;
+    -moz-osx-font: graysacle;
+    box-sizing: border-box;
+    background-color: black;
+}
+code{
+    font-family: source-code-pro ,Menlo, 'Courier New',monospace;
+}
