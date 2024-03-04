@@ -6,7 +6,7 @@ import Library from '../Library/library';
 import Favorites from '../favourite/favourites';
 import Player from '../Player/player';
 import './home.css';
-import Sidebar from '../../Components/Sidebar/index';
+import Sidebar from '../../Components/Sidebar/sidebar';
 
 export default function Home() {
   return (
