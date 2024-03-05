@@ -1,0 +1,31 @@
+a{
+    text-decoration: none !important;
+}
+.btn-body{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    color: #f8d9c0;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    background-color: rgba(244, 187, 146,0.0);
+    transition: 0.3s   ease ;
+}
+.btn-body.active{
+    background-color: rgba(244, 187, 146, 1.0);
+    color: #fff;
+   
+    transform: scale(1.05);
+
+}
+.btn-body:hover{
+    /* background-color:rgb(214, 184, 162); */
+    transform: scale(1.10);
+}
+.btn-title{
+   margin: 4px auto;
+    font-weight: 600;
+    font-size: 14px;
+}
